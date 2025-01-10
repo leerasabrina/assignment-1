@@ -135,6 +135,7 @@
     text-align: left;
   }
   .hero-btn{
+    margin-top: 20px;
     height: 44px;
     width: 200px;
     border: none;
@@ -157,6 +158,7 @@ transition: transform 0.2s ease;
     margin-bottom: 20px;
   }
   .batto{
+    margin-top: 20px;
     height: 30px;
     width: 96px;
     border: none;
@@ -232,4 +234,34 @@ font-family: Fira Sans;
 font-size: 10px;
 font-weight: 400;
 text-align: left;
+ }
+  /* section B*/ 
+  .B{
+    box-sizing: border-box;
+border: none;
+border-radius: 16px;
+padding:37px ;
+background:whitesmoke;
+margin-top: 50px;
+ }
+ .B-div{
+    background-image:url("quote-bg.png") ;
+    background-repeat: no-repeat;
+    padding: 37px 18px 10px 0px;
+ }
+ .B-p{
+margin-bottom: 20px;
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 12px;
+ }
+ .B-h2{
+margin-bottom: 5px;
+Font: Fira Sans;
+Font-size: 15px;
+ }
+ .B-h6{
+    color: rgba(14, 14, 14, 0.6);
+    Font: Fira Sans;
+Font-size: 12px;
  }
