@@ -163,7 +163,7 @@ transition: transform 0.2s ease;
     width: 100px;
     border: none;
     border-radius: 5px;
-    transition: transform 0.2s ease;
+    transition:0.2s ease;
   }
   .batto:hover{
     transform:scale(1.1);
@@ -291,6 +291,9 @@ padding: 30px;
 height:250px ;
 margin-top: 20px;
  }
+ span{
+  padding-left: 10px;
+ }
  .flex4{
   border-radius: 16px;
  background-color: rgb(241, 238, 238);
@@ -331,4 +334,57 @@ text-align: left;
 font-family: Fira Sans;
 font-size: 26px;
 text-align: left;
+ }
+ /* d-sec */
+ .D{
+  margin-top: 50px;
+  padding: 0px 80px;
+ }
+ .lombo{
+  height:70px ;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  background-color: whitesmoke; 
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 25px;
+  font-weight: 400;
+  transition: 0.1sec ease;
+ }
+ .btn-D{
+  height:100px;
+  width: 70%;
+  display: flex;
+  padding-top:50px ;
+  gap: 20px;
+ }
+ .lombo:hover{
+  transform: scale(1.1);
+  background-color: rgb(198, 228, 214);
+ }
+ .D-div{
+  text-align: center;
+ }
+ .D-mid{
+  text-align: center;
+ }
+ .D-inp{
+  height:70px;
+  width: 70%;
+  text-align: center;
+  /* background-color: blue; */
+ }
+ .D-inp input{
+  width: 90%;
+  height: 50px;
+  margin-bottom: 30px;
+  background-color:whitesmoke ;
+  border: none;
+ }
+ input::placeholder{
+  text-align: center;
+ }
+ .flood{
+  margin-left: 50px;
  }
