@@ -1,0 +1,235 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  *{
+    margin: 0 auto;
+  }
+  .hero{
+    border-radius: 20px;
+   background-color: rgb(198, 228, 214);
+   width: 1000px;
+  }
+  .flex1{
+    display: flex;
+    justify-content: space-between;
+    padding:64px ;
+  }
+  .baba{
+    width:490px ;
+    margin-top: 10px;
+  }
+  .hero-h6{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 19px;
+    text-align: left;
+  }
+  .hero-h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 44px;
+    text-align: left;
+  }
+  .hero-btn{
+    height: 44px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+background-color: rgb(0, 106, 80);
+color: aliceblue;
+transition: transform 0.2s ease;
+  }
+  .hero-btn:hover {
+    transform:scale(1.1);
+    color: aquamarine;
+  }
+  main{
+    width: 1000px;
+  }
+  .A{
+    margin-top: 50px;
+  }
+  .A-div{
+    margin-bottom: 20px;
+  }
+  .batto{
+    height: 30px;
+    width: 96px;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+  }
+  .batto:hover{
+    transform:scale(1.1);
+  }
+  .flex2{
+    display: flex;
+    gap: 20px;
+  }
+  .pad{
+    padding: 25px;
+  }
+  .baba1{
+    box-sizing: border-box;
+border-radius: 12px;
+
+background: rgba(84, 144, 245, 0.2);
+
+  }
+  .baba2{
+    box-sizing: border-box;
+    border-radius: 12px;
+    
+    background: rgb(198, 228, 214);
+  }
+  .baba3{
+    box-sizing: border-box;
+border-radius: 12px;
+
+background: rgb(247, 235, 207);
+ }
+ .sky{
+background-color: rgb(84, 144, 245);
+color: aliceblue;
+ }
+ .sky2{
+    background-color: rgb(9, 161, 92);
+    color: aliceblue;
+ }
+ .sky3{
+    background-color:rgb(255, 194, 57) ;
+    color: aliceblue;
+ }
+ .card{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+text-align: left;
+ }
+ .card2{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+ }
+ .A-h2{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 30px;
+font-weight: 700;
+text-align: left;
+padding-bottom: 10px;
+ }
+ .A-p{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 10px;
+font-weight: 400;
+text-align: left;
+ }
