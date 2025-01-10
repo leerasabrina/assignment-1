@@ -159,8 +159,8 @@ transition: transform 0.2s ease;
   }
   .batto{
     margin-top: 20px;
-    height: 30px;
-    width: 96px;
+    height: 40px;
+    width: 100px;
     border: none;
     border-radius: 5px;
     transition: transform 0.2s ease;
@@ -264,4 +264,50 @@ Font-size: 15px;
     color: rgba(14, 14, 14, 0.6);
     Font: Fira Sans;
 Font-size: 12px;
+ }
+ /* c-sec */
+ .C{
+    margin-top: 50px;
+ }
+ .flex3{
+ border-radius: 16px;
+background-color: rgb(241, 238, 238);
+display: flex;
+gap: 20px;
+padding: 30px;
+height:250px ;
+margin-top: 20px;
+
+ }
+ .green{
+    background-color: rgb(0, 106, 80);
+    color: aliceblue;
+    margin-top: 20px;
+ }
+ .C-img img{
+    border-radius: 16px;
+    height: 100%;
+ }
+ .aljajira{
+    margin-top: 10px;
+ }
+ .alp{
+    margin-top: 10px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 12px;
+text-align: left;
+ }
+ .aljp{
+    margin-top: 10px;
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 12px;
+text-align: left;
+ }
+ .ban{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 26px;
+text-align: left;
  }
