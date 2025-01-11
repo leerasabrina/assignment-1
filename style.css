@@ -348,6 +348,13 @@ font-family: Fira Sans;
 font-size: 12px;
 margin-left: 50px;
  }
+ .alp1{
+  margin-top: 10px;
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 12px;
+text-align: left;
+ }
  .aljp{
     margin-top: 10px;
     color: rgba(14, 14, 14, 0.7);
