@@ -109,14 +109,15 @@
     margin: 0 auto;
   } 
   .hero{
-    border-radius: 20px;
-   background-color: rgb(198, 228, 214);
    width: 1000px;
+   margin-top: 10px;
   }
   .flex1{
     display: flex;
     justify-content: space-between;
     padding:64px ;
+    background-color: rgb(198, 228, 214);
+    border-radius: 20px;
   }
   .baba{
     width:490px ;
@@ -168,6 +169,29 @@ transition: transform 0.2s ease;
   .batto:hover{
     transform:scale(1.1);
   }
+  .nav-title{
+    display: flex;
+    align-items: center;
+    gap: 790px;
+    margin-bottom: 20px;
+  }
+  .nav-batto{
+    margin-bottom:5px;
+    height: 30px;
+    width: 70px;
+    background-color:white;
+    color: green;
+    border:1px solid green;
+    border-radius: 5px;
+    
+    transition:0.2s ease;
+  }
+  .nav-batto:hover{
+    transform:scale(1.1);
+    background-color: antiquewhite;
+    color: black;
+  }
+  
   .flex2{
     display: flex;
     gap: 20px;
