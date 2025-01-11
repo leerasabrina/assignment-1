@@ -118,10 +118,11 @@
     padding:64px ;
     background-color: rgb(198, 228, 214);
     border-radius: 20px;
+    gap: 50px;
   }
   .baba{
     width:490px ;
-    margin-top: 10px;
+    margin-top: 40px;
   }
   .hero-h6{
     color: rgba(14, 14, 14, 0.5);
@@ -330,7 +331,7 @@ margin-top: 20px;
  height:250px ;
  margin-top: 20px;}
  .green{
-    background-color: rgb(0, 106, 80);
+    background-color: rgb(4, 123, 94);
     color: aliceblue;
     margin-top: 20px;
  }
@@ -377,6 +378,10 @@ text-align: left;
   background-color: rgb(198, 228, 214) ;
   color: black;
  }
+ #pet:hover{
+  background-color:rgb(42, 74, 177);
+  color: white;
+ }
  .lombo{
   height:70px ;
   width: 150px;
@@ -421,8 +426,8 @@ text-align: left;
   height: 50px;
   margin-bottom: 30px;
   background-color:whitesmoke ;
-  border: none;
- }
+  border: none;}
+ 
  input::placeholder{
   text-align: center;
  }
@@ -433,8 +438,8 @@ text-align: left;
  .E{
   background-color: rgb(198, 228, 214);
   border-radius: 16px;
-  height: 300px;
-  padding: 60px 100px;
+  height: 180px;
+  padding: 100px 100px;
    margin-top: 50px;
   margin-bottom: 50px;
  }
@@ -474,11 +479,14 @@ text-align: left;
    margin-left: 0px;
   background-color: whitesmoke;
   padding: 40px 130px;
-  width: 1000px;
+  width: 750px;
  }
  .E-padd{
   padding: 10px 150px; 
  }
  .contact{
   margin-left: 20px;
+ }
+ .maa{
+  margin-bottom: 20px;
  }
