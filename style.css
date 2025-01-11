@@ -105,9 +105,9 @@
     font-weight: 900;
     font-style: italic;
   }
-  *{
+   *{
     margin: 0 auto;
-  }
+  } 
   .hero{
     border-radius: 20px;
    background-color: rgb(198, 228, 214);
@@ -135,7 +135,7 @@
     text-align: left;
   }
   .hero-btn{
-    margin-top: 20px;
+    margin: 20px auto;
     height: 44px;
     width: 200px;
     border: none;
@@ -152,7 +152,7 @@ transition: transform 0.2s ease;
     width: 1000px;
   }
   .A{
-    margin-top: 50px;
+    margin: 50px auto;
   }
   .A-div{
     margin-bottom: 20px;
@@ -211,7 +211,7 @@ color: aliceblue;
 font-family: Fira Sans;
 font-size: 20px;
 font-weight: 700;
-text-align: left;
+/* text-align: left; */
  }
  .card2{
     color: rgba(14, 14, 14, 0.7);
@@ -225,7 +225,7 @@ text-align: left;
 font-family: Fira Sans;
 font-size: 30px;
 font-weight: 700;
-text-align: left;
+/* text-align: left; */
 padding-bottom: 10px;
  }
  .A-p{
@@ -242,7 +242,7 @@ border: none;
 border-radius: 16px;
 padding:37px ;
 background:whitesmoke;
-margin-top: 50px;
+margin: 50px auto;
  }
  .B-div{
     background-image:url("quote-bg.png") ;
@@ -259,6 +259,8 @@ font-size: 12px;
 margin-bottom: 5px;
 Font: Fira Sans;
 Font-size: 15px;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
  }
  .B-h6{
     color: rgba(14, 14, 14, 0.6);
@@ -267,7 +269,7 @@ Font-size: 12px;
  }
  /* c-sec */
  .C{
-    margin-top: 50px;}
+    margin: 50px auto;}
     .C-h2{
       color: rgb(14, 14, 14);
       font-family: Fira Sans;
@@ -337,7 +339,7 @@ text-align: left;
  }
  /* d-sec */
  .D{
-  margin-top: 50px;
+  margin: 50px auto;
   padding: 0px 80px;
  }
  .lombo{
@@ -387,4 +389,57 @@ text-align: left;
  }
  .flood{
   margin-left: 50px;
+ }
+ /* E-section */
+ .E{
+  background-color: rgb(198, 228, 214);
+  border-radius: 16px;
+  height: 300px;
+  padding: 60px 100px;
+   margin-top: 50px;
+  margin-bottom: 50px;
+ }
+ .flex5{
+  width: 600px;
+  height: 50px;
+  display: flex;
+  border: none;
+  padding-bottom: 50px;
+ }
+ input{
+  width:400px;
+  height: 50px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+ }
+ a>button{
+  width:200px;
+  height: 52px;
+  border: none;
+  background-color:rgb(0, 106, 80) ;
+  color: aliceblue;
+  border-radius: 0px 5px 5px 0px;
+  transition: 0.1s ease;
+ }
+ a>button:hover{
+  transform: scale(1.1);
+  background-color:green;
+ }
+ .input::placeholder{
+  text-align: left;
+  padding:20px;
+ }
+ footer{
+   margin-top: 50px;
+   margin-right:200px;
+   margin-left: 0px;
+  background-color: whitesmoke;
+  padding: 40px 130px;
+  width: 1000px;
+ }
+ .E-padd{
+  padding: 10px 150px; 
+ }
+ .contact{
+  margin-left: 20px;
  }
